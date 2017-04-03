@@ -21,6 +21,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".TimelineActivity"
+            android:label="@string/title_activity_timeline"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity android:name=".View.PreferenceActivity"></activity>
+        <activity
+            android:name=".TimelineActivity"
+            android:label="@string/title_activity_timeline"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".View.PreferenceActivity"></activity>
     </application>
 
